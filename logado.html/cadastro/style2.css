@@ -1,0 +1,25 @@
+body {
+    height: 100%;
+    background-color: black
+    align-items: center;
+    justify-content: center;
+}
+
+.loader {
+
+width: 80px;
+height: 80px;
+border: 8px solid #434343; 
+border-top-color: goldenrod;
+border-radius: 50%;
+animation: girandooanel 1s infinite;
+
+}
+@keyframes girandooanel{
+    to{
+        transform: rotate(1 turn );
+    }
+
+
+
+}
